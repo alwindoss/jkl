@@ -1,3 +1,7 @@
-fn main() {
-    println!("Hello, world!");
+enum Scope {
+    SingleRepository,
+    MultipleRepositories,
+    EntireOrganization,
 }
+
+fn main() {}
